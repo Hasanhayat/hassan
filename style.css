@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+} 
+.first{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   /* background-color: #D8D4D5; */
+   background-image: linear-gradient( to top left , rgb(167, 223, 245), white, rgb(102, 102, 102), rgba(241, 201, 126, 0.87));
+}
+.con1{
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 40%; */
+    /* height: 30%; */
+    width: fit-content;
+    height: fit-content;
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: larger;
+    /* padding: 20px; */
+    border-radius: 20px;
+    box-shadow: 7px 7px 50px black;
+}
+.con1>h1{
+    margin-left: 5px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    margin: 15px 10px 5px 10px;
+    padding: 8px 6px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+}
+button:hover{
+    background-color: #909997;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.sec{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img.jfif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.con2{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid transparent;
+    padding: 2%;
+    backdrop-filter: blur(15px);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.con2>h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    color: #000000f1;
+}
+.con2 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+   .h{
+    display: none;
+   }
+  }
