@@ -19,16 +19,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 40%; */
-    /* height: 30%; */
-    width: fit-content;
+     width: 36%;
+    /* height: 20%;  */
+    /* width: fit-content; */
     height: fit-content;
     padding-left: 2%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: larger;
-    /* padding: 20px; */
     border-radius: 20px;
     box-shadow: 7px 7px 50px black;
 }
@@ -90,5 +89,9 @@ a{
 @media only screen and (max-width: 480px) {
    .h{
     display: none;
+   }
+   .con1{
+    width: fit-content;
+    height: fit-content;
    }
   }
